@@ -1,15 +1,19 @@
-Package: StatComp20011
+Package: StatComp20099
 Type: Package
-Title: Final project for 'Statistical Computing' course
+Title: 20099's final project for 'Statistical Computing' course
 Version: 1.0
-Date: 2020-12-20
-Author: Jiaqi Wu
-Maintainer: Jiaqi Wu<wjq138@mail.ustc.edu.cn>
-Description: EM algorithm for bivariate normal data. 
+Date: 2020-12-19
+Author: Xiao Chen
+Maintainer: Xiao Chen <cx990621@mail.ustc.edu.cn>
+Description: Several R and Rcpp function are included in this package for illustration. 
 License: GPL (>= 2)
+Imports: Rcpp, microbenchmark, stats, igraph, e1071, Ball, DAAG, RANN, boot,bootstrap, 
+         devtools, energy, lattice,
+         MASS, plyr, methods, quantmod, tseries, lmtest, vars, forecast
+Suggests: knitr, rmarkdown         
 RoxygenNote: 7.1.1
 Encoding: UTF-8
-Suggests: knitr, rmarkdown, norm, Ball, GeneralizedHyperbolic, MASS, RANN, boot, energy, DAAG, bootstrap, Rcpp, microbenchmark
 VignetteBuilder: knitr
-URL: https://github.com/james138/StatComp20011
-BugReports: https://github.com/james138/StatComp20011/issues
+DEPENDS: R (>= 3.5.0)
+URL: http://github.com/cx5184cx/StatComp
+BugReports: http://github.com/cx5184cx/StatComp/issues
